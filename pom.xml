@@ -420,10 +420,17 @@
     </reporting>
 
     <distributionManagement>
+        
         <snapshotRepository>
-            <id>jonos_repo</id>
-            <url>http://localhost:8081/nexus/content/repositories/jonos_repo/</url>
+            <id>snapshots</id>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
+        
+        <repository>
+            <id>releases</id>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+ 
     </distributionManagement>
 
     <url>demopetclinic</url>
