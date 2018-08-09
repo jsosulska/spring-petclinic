@@ -421,10 +421,10 @@
 
     <distributionManagement>
         
-        <snapshotRepository>
+        <repository>
             <id>snapshots</id>
             <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
+        </repository>
         
         <repository>
             <id>releases</id>
