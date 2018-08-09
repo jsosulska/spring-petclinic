@@ -422,7 +422,7 @@
 <distributionManagement>
   <snapshotRepository>
     <id>jonos_repo</id>
-    <url>http://localhost:8081/nexus/content/repositories/jonos_repo</url>
+    <url>http://localhost:8081/nexus/content/repositories/jonos_repo/</url>
   </snapshotRepository>
 </distributionManagement>
 
