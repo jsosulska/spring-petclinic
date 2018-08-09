@@ -419,12 +419,12 @@
         </plugins>
     </reporting>
 
-<distributionManagement>
-  <snapshotRepository>
-    <id>jonos_repo</id>
-    <url>http://localhost:8081/nexus/content/repositories/jonos_repo/</url>
-  </snapshotRepository>
-</distributionManagement>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>jonos_repo</id>
+            <url>http://localhost:8081/nexus/content/repositories/jonos_repo/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <url>demopetclinic</url>
 </project>
