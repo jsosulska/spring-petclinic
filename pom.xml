@@ -419,19 +419,5 @@
         </plugins>
     </reporting>
 
-    <distributionManagement>
-        
-        <repository>
-            <id>snapshots</id>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-        </repository>
-        
-        <repository>
-            <id>releases</id>
-            <url>http://localhost:8081/nexus/content/repositories/releases</url>
-        </repository>
- 
-    </distributionManagement>
-
     <url>demopetclinic</url>
 </project>
